@@ -1,5 +1,5 @@
 '''
-Heal algorithm
+Priority Queue
 
 https://www.acmicpc.net/problem/1655
 백준이는 동생에게 "가운데를 말해요" 게임을 가르쳐주고 있다.
