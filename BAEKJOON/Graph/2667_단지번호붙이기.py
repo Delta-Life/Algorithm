@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/2178
+# https://www.acmicpc.net/problem/2178
 
 from collections import deque
 
@@ -10,7 +10,6 @@ def get_asc_num_of_one_loaf(graph, N):
         dy = [0, 0, -1, 1]
         queue = deque()
         queue.append(start)
-        graph
 
         while queue:
             x, y = queue.popleft()
@@ -37,7 +36,7 @@ def get_asc_num_of_one_loaf(graph, N):
     
     return sorted(result)
 
-N = int(input().rstrip())
+N = int(input())
 graph = []
 
 for i in range(N):

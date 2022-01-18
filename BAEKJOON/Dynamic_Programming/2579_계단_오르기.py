@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/2579
+# https://www.acmicpc.net/problem/2579
 
 def walk_up(num, stairs):
     max_point = [0] * (num+2)

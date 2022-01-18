@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/1463
+# https://www.acmicpc.net/problem/1463
 
 def min_calculation(num):
     min_array = [0] * (num+1)

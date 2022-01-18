@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/11053
+# https://www.acmicpc.net/problem/11053
 
 def LIS(num_array):
     lis_array = [1] * len(num_array)

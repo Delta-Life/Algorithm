@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/1912
+# https://www.acmicpc.net/problem/1912
 
 def max_sum_subsequence(num_array):
     max_array = [0] * len(num_array)
@@ -9,7 +9,7 @@ def max_sum_subsequence(num_array):
     
     return max(max_array)
 
-n = int(input().rstrip())
+n = int(input())
 num_array = list(map(int, input().split()))
 
 print(max_sum_subsequence(num_array))

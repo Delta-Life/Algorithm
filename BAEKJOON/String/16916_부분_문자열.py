@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/16916
+# https://www.acmicpc.net/problem/16916
 
 def get_pi(P):
     pi = [0] * len(P)
@@ -29,7 +29,7 @@ def KMN(T, P):
     
     return 0
 
-T = input().rstrip()
-P = input().rstrip()
+T = input()
+P = input()
 
 print(KMN(T, P))

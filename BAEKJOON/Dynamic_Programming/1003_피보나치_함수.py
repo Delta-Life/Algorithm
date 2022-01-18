@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/1003
+# https://www.acmicpc.net/problem/1003
 
 def fibo(num):
     tmp = [0, 1, 0, 1, 1]

@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/2156
+# https://www.acmicpc.net/problem/2156
 
 def drink(num, scores):
     max_point = [0] * (num+2)

@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/10844
+# https://www.acmicpc.net/problem/10844
 
 def get_stairs_num(N):
     stairs = [[0] * 10 for _ in range(N+1)]
@@ -12,6 +12,6 @@ def get_stairs_num(N):
     
     return sum(stairs[N]) % 1000000000
 
-N = int(input().rstrip())
+N = int(input())
 
 print(get_stairs_num(N))

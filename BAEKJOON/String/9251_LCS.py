@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/9251
+# https://www.acmicpc.net/problem/9251
 
 def LCS(str1, str2):
     cost = [[0] * (len(str1)+1) for _ in range(len(str2)+1)]
@@ -9,7 +9,7 @@ def LCS(str1, str2):
     
     return cost[-1][-1]
 
-str1 = input().rstrip()
-str2 = input().rstrip()
+str1 = input()
+str2 = input()
 
 print(LCS(str1, str2))

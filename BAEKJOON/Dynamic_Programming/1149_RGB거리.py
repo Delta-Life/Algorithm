@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/1149
+# https://www.acmicpc.net/problem/1149
 
 def rgb_distance(num, rgb_cost):
     cost = [[0, 0, 0] for _ in range(num+1)]

@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/11726
+# https://www.acmicpc.net/problem/11726
 
 def get_num_of_case(num):
     min_array = [1, 2]

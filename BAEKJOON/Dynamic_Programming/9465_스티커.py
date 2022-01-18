@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/9465
+# https://www.acmicpc.net/problem/9465
 
 def get_max_score(score_matrices):
     result = []
@@ -14,7 +14,7 @@ def get_max_score(score_matrices):
     return result
 
 
-T = int(input().rstrip())
+T = int(input())
 score_matrices = []
 
 for i in range(T):

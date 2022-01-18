@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/2606
+# https://www.acmicpc.net/problem/2606
 
 from collections import defaultdict
 
@@ -16,8 +16,8 @@ def DFS(graph, start):
     
     return visited
 
-_ = int(input().rstrip())
-edge_num = int(input().rstrip())
+_ = int(input())
+edge_num = int(input())
 graph = defaultdict(list)
 
 for _ in range(edge_num):

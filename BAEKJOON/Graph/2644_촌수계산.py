@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/2644
+# https://www.acmicpc.net/problem/2644
 
 from collections import deque, defaultdict
 
@@ -18,9 +18,9 @@ def BFS(graph, src, dst, n):
     
     return count[dst] if count[dst] != 0 else -1
 
-n = int(input().rstrip())
+n = int(input())
 src, dst = map(int, input().split())
-edge_num = int(input().rstrip())
+edge_num = int(input())
 graph = defaultdict(list)
 
 for _ in range(edge_num):

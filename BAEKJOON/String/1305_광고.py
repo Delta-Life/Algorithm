@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/1305
+# https://www.acmicpc.net/problem/1305
 
 def advertisement(L, P):
     pi = [0] * len(P)
@@ -13,7 +13,7 @@ def advertisement(L, P):
 
     return L - pi[-1]
 
-L = int(input().rstrip())
-string = input().rstrip()
+L = int(input())
+string = input()
 
 print(advertisement(L, string))

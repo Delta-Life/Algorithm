@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/9935
+# https://www.acmicpc.net/problem/9935
 
 def string_explosion(str1, str2):
     last_char = str2[-1]
