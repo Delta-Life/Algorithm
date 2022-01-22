@@ -1,9 +1,6 @@
 # https://www.acmicpc.net/problem/11725
 
-import sys
 from collections import defaultdict
-
-input = sys.stdin.readline
 
 def get_parent(tree, n):
     parents = []
